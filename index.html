@@ -68,6 +68,40 @@ nav a:hover {
             padding: 30px;
             text-align: center;
         }
+        
+        .manga-card {
+    display: flex;
+    gap: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cover {
+    width: 120px;
+    height: 160px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 8px;
+}
+
+.manga-info h3 {
+    margin-top: 0;
+}
+
+.manga-info p {
+    color: #666;
+}
+
+.manga-info button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
     </style>
 </head>
 
@@ -91,15 +125,19 @@ nav a:hover {
             <p>เว็บไซต์อ่านมังงะกำลังสร้างอยู่</p>
         </div>
 
-        <div class="manga-box">
-            <h2>📖 มังงะทั้งหมด</h2>
+       <div class="manga-box">
+    <h2>📖 มังงะล่าสุด</h2>
 
-            <div class="empty">
-                ยังไม่มีมังงะ
-                <br>
-                มังงะเรื่องแรกกำลังจะมา...
-            </div>
+    <div class="manga-card">
+        <div class="cover">📕</div>
+
+        <div class="manga-info">
+            <h3>มังงะเรื่องตัวอย่าง</h3>
+            <p>ตอนล่าสุด: ตอนที่ 1</p>
+            <button>อ่านตอนที่ 1</button>
         </div>
+    </div>
+</div>
 
     </div>
 
